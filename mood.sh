@@ -17,7 +17,7 @@ while true; do
 	*) echo "I'm sorry, I don't understand that, please enter 'happy, sad or tired'.";;
 	esac
 done 
-sleep .3s
+sleep .2s
 while true; do
 	read -p "What is the time of day?" time
 	time=${time,,}
