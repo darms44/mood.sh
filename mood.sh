@@ -5,7 +5,7 @@ read name
 if [ $name ]; then 
 	  echo "Hello $name! I'm Henry, it's nice to meet you!"
 fi
-sleep .2s
+sleep .3s
 shopt -s nocasematch
 while true; do
 	read -p "How are you today?" mood
@@ -49,6 +49,7 @@ case "$time" in
         *) echo "I don't understand, Please enter 'morning, noon or night'.";;
      esac
 done
+sleep .2s
 	read -p "Would you like to try again?" redo
 	redo=${redo,,}
 	case $redo in
