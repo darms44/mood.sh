@@ -3,7 +3,7 @@ while true; do
 echo "What is your first name?"
 read name 
 if [ $name ]; then 
-	  echo "Hello $name! I'm Henry, it's nice to meet you!"
+	  echo "Hello $name! I'm Harvy, it's nice to meet you!"
 fi
 sleep .3s
 shopt -s nocasematch
